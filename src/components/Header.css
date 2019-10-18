@@ -1,0 +1,19 @@
+.Wrapper {
+  text-align: center;
+  padding: 0 30%;
+  margin-bottom: 5vh;
+}
+
+.Header-logo {
+  height: 35vmin;
+  margin-top: 6vh;
+}
+
+.Header-header {
+  min-height: 64vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}

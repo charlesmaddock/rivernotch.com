@@ -1,0 +1,8 @@
+.Footer-footer {
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8vh;
+  font-size: calc(10px + 2vmin);
+}
