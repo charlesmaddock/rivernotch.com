@@ -4,7 +4,7 @@ const Download = () => {
 
   return(
     <div className="Wrapper" style={{fontFamily: "Spectral", fontSize: 14}}>
-      Download coming soon.
+      Download coming soon...
     </div>
   )
 }

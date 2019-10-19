@@ -8,21 +8,21 @@ import "./Home.css"
 const Home = () => {
 
   return(
-    <div className="Wrapper" style={{textAlign: "justify"}}>
+    <div className="Wrapper" style={{textAlign: "justify", fontSize: 15}}>
       <p style={{fontSize: 20}}>
-        <b>Rivernotch</b> is a digital world that is shaped by your's
+        <b>Rivernotch</b> is a digital world that is shaped by yours
         and other players' actions.
       </p>
 
       <p>
-        Imagine this, you wake up on an empty meadow.
+        Imagine this: You wake up on an empty meadow.
         Butterflies drift aimlessly amongst the autumn grass and
         the surroundings are yet untouched by modern society.
         <b> The world is your canvas - </b>Build a farm and take
         care of a few chickens, team up with some friends and
         explore the world as it once was
          or collaborate with other players and lay the
-         foundations for a village, a city or even a mighty kingdom!
+         foundation for a village, a city or even a mighty kingdom!
       </p>
 
       <p>
