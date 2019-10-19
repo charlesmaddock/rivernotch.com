@@ -8,7 +8,7 @@ import "./Home.css"
 const Home = () => {
 
   return(
-    <div className="Home-Wrapper">
+    <div className="Wrapper" style={{textAlign: "justify"}}>
       <p style={{fontSize: 20}}>
         <b>Rivernotch</b> is a digital world that is shaped by your's
         and other players' actions.

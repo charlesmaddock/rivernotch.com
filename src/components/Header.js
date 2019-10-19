@@ -19,7 +19,7 @@ function Header() {
           type="flex"
           justify="center"
           style={{ width: "100%"}}>
-          <Col span={4}>
+          <Col span={8}>
               <NavLink
                 exact
                 to={"/"}
@@ -28,7 +28,7 @@ function Header() {
                 Home
               </NavLink>
           </Col>
-          <Col span={4}>
+          <Col span={8}>
               <NavLink
                 to={"/download"}
                 activeStyle={{ textDecoration: 'underline' }}
@@ -36,7 +36,7 @@ function Header() {
                 Download
               </NavLink>
           </Col>
-          <Col span={4}>
+          <Col span={8}>
               <NavLink
                 to={"/news"}
                 activeStyle={{ textDecoration: 'underline' }}

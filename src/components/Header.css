@@ -1,7 +1,26 @@
 .Wrapper {
   text-align: center;
-  padding: 0 30%;
+  width: 40%;
+  margin: auto;
   margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .Wrapper {
+    width: 60%;
+  }
+  .Header-header {
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .Wrapper {
+    width: 90%;
+  }
+  .Header-header {
+    height: 30%;
+  }
 }
 
 .Header-logo {
@@ -10,7 +29,7 @@
 }
 
 .Header-header {
-  min-height: 64vh;
+  height: 64%;
   display: flex;
   flex-direction: column;
   align-items: center;
