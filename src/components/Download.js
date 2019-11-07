@@ -62,7 +62,10 @@ const Download = () => {
             </Button>
           </a>
           <p style={{fontFamily: "Spectral", fontSize: 16, marginTop: 20}}>
-            <b>Step 2:</b> Once the file "Rivernotch_Setup.exe" is downloaded, double click to open it and follow the setup instructions to install and play the game. Enjoy!
+            <b>Step 2:</b> Once the file "Rivernotch_Setup.exe" is downloaded double click it to start the setup. Your computer may not allow you to open the Rivernotch setup program however, to fix this, press the "More Information" button and then the "Run Anyway" button.
+          </p>
+          <p style={{fontFamily: "Spectral", fontSize: 16, marginTop: 20}}>
+            <b>Step 3:</b> After you have allowed the Rivernotch setup begin simply follow the setup instructions to install and play the game. Enjoy!
           </p>
         </div>
       </div>
