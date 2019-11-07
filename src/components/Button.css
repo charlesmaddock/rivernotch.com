@@ -1,0 +1,10 @@
+.Download-Button-Wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Download-Button:hover{
+  cursor: pointer;
+}

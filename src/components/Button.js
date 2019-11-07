@@ -1,27 +1,25 @@
 import React from "react"
-
-const circleStyle = {
-
-}
+import "./Button.css"
+import button from '../assets/button.png'
 
 const Button = ({ children }) => (
-  <div
-    style={{
-      backgroundColor: "#e3c89a",
-      padding: "10px 20px",
-      position: "relative"
-    }}>
-    <div style={{
-      width: 8,
-      height: 8,
-      backgroundColor: "#755621",
-      borderRadius: 6,
-      position: "absolute",
-      top: -3,
-      left: -3
-    }}/>
-
-    {children}
+  <div className="Download-Button-Wrapper">
+    <div
+    className="Download-Button"
+    style={{position: 'relative', textAlign: 'center'}}
+    onClick={()=> console.log("click")}
+    >
+      <img
+        src={button}
+        alt="button"/>
+      <p style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+      }}>
+        {children}
+      </p>
+    </div>
   </div>
 )
 
