@@ -1,6 +1,7 @@
 import React from "react"
 import Button from "./Button.js"
 import rivernotch_mac from "../resources/Rivernotch_Mac.zip"
+import rivernotch_linux from "../resources/Rivernotch_Linux.zip"
 import rivernotch_windows from "../resources/Rivernotch_Windows.exe"
 
 const Download = () => {
@@ -9,6 +10,11 @@ const Download = () => {
       <div className="Wrapper">
         <h2>For Mac</h2>
         <div style={{textAlign: "justify"}}>
+
+          <p style={{fontFamily: "Spectral", fontSize: 16}}>
+            <i>If you get stuck with the download, try reading all the steps</i>
+          </p>
+
           <p style={{fontFamily: "Spectral", fontSize: 16}}>
             <b>Step 1:</b> Press the button below to start the download.
           </p>
@@ -44,6 +50,11 @@ const Download = () => {
 
         <h2 style={{marginTop: 60}}>For Windows</h2>
         <div style={{textAlign: "justify"}}>
+
+          <p style={{fontFamily: "Spectral", fontSize: 16}}>
+            <i>If you get stuck with the download, try reading all the steps</i>
+          </p>
+
           <p style={{fontFamily: "Spectral", fontSize: 16}}>
             <b>Step 1:</b> Press the button below to start the download.
           </p>
@@ -67,6 +78,28 @@ const Download = () => {
           <p style={{fontFamily: "Spectral", fontSize: 16, marginTop: 20}}>
             <b>Step 3:</b> After you have allowed the Rivernotch setup begin simply follow the setup instructions to install and play the game. Enjoy!
           </p>
+        </div>
+
+        <h2 style={{marginTop: 60}}>For Linux</h2>
+        <div style={{textAlign: "justify"}}>
+
+          <p style={{fontFamily: "Spectral", fontSize: 16}}>
+            I don't have linux so I can't guide you on how to download Rivernotch. You guys are hackers anyway though so you will figure it out ;)
+          </p>
+
+          <a href={rivernotch_linux} download="Rivernotch_Linux.exe">
+            <Button>
+              <p style={{
+                fontSize: 19,
+                fontFamily: 'IM Fell DW Pica SC',
+                color: "rgba(255,255,255,0.9)",
+                marginTop: 13,
+                marginLeft: 26
+              }}>
+               Download for Linux
+              </p>
+            </Button>
+          </a>
         </div>
       </div>
   )
