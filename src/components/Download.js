@@ -79,30 +79,30 @@ const Download = () => {
             <b>Step 3:</b> After you have allowed the Rivernotch setup begin simply follow the setup instructions to install and play the game. Enjoy!
           </p>
         </div>
-
-        <h2 style={{marginTop: 60}}>For Linux</h2>
-        <div style={{textAlign: "justify"}}>
-
-          <p style={{fontFamily: "Spectral", fontSize: 16}}>
-            I don't have linux so I can't guide you on how to download Rivernotch. You guys are hackers anyway though so you will figure it out ;)
-          </p>
-
-          <a href={rivernotch_linux} download="Rivernotch_Linux.exe">
-            <Button>
-              <p style={{
-                fontSize: 19,
-                fontFamily: 'IM Fell DW Pica SC',
-                color: "rgba(255,255,255,0.9)",
-                marginTop: 13,
-                marginLeft: 26
-              }}>
-               Download for Linux
-              </p>
-            </Button>
-          </a>
-        </div>
       </div>
   )
 }
 
 export default Download
+
+/*<h2 style={{marginTop: 60}}>For Linux</h2>
+<div style={{textAlign: "justify"}}>
+
+  <p style={{fontFamily: "Spectral", fontSize: 16}}>
+    I don't have linux so I can't guide you on how to download Rivernotch. You guys are hackers anyway though so you will figure it out ;)
+  </p>
+
+  <a href={rivernotch_linux} download="Rivernotch_Linux.exe">
+    <Button>
+      <p style={{
+        fontSize: 19,
+        fontFamily: 'IM Fell DW Pica SC',
+        color: "rgba(255,255,255,0.9)",
+        marginTop: 13,
+        marginLeft: 26
+      }}>
+       Download for Linux
+      </p>
+    </Button>
+  </a>
+</div>*/
