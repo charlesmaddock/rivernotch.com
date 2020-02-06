@@ -28,8 +28,8 @@ const News = () => {
             <br/>
             <br/>
             The game has now been in development for about 4 months
-            now and the majority of that time has gone towards planing
-            and laying the foudation for the game. So the game is quite
+            and the majority of that time has gone towards planning
+            and laying the foundation for the game. So the game is quite
             primitive at this point.
             <br/>
             <br/>
