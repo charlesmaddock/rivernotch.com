@@ -79,6 +79,14 @@ const Download = () => {
             <b>Step 3:</b> After you have allowed the Rivernotch setup begin simply follow the setup instructions to install and play the game. Enjoy!
           </p>
         </div>
+
+
+        <h2 style={{marginTop: 60}}>For Linux</h2>
+        <div style={{textAlign: "justify"}}>
+          <p style={{fontFamily: "Spectral", fontSize: 16}}>
+            Yeah you probably a hacker anyways, so inspect element and download the zip from src/resources ;)
+          </p>
+        </div>
       </div>
   )
 }
