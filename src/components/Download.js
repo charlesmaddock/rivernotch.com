@@ -2,7 +2,7 @@ import React from "react"
 import Button from "./Button.js"
 import rivernotch_mac from "../resources/Rivernotch_Mac.zip"
 import rivernotch_linux from "../resources/Rivernotch_Linux.zip"
-import rivernotch_windows from "../resources/Rivernotch_Windows.exe"
+import rivernotch_windows from "../resources/Rivernotch_Windows.zip"
 
 const Download = () => {
 
@@ -59,7 +59,7 @@ const Download = () => {
             <b>Step 1:</b> Press the button below to start the download.
           </p>
 
-          <a href={rivernotch_windows} download="Rivernotch_Setup.exe">
+          <a href={rivernotch_windows} download="Rivernotch_Setup.zip">
             <Button>
               <p style={{
                 fontSize: 16,
@@ -73,7 +73,7 @@ const Download = () => {
             </Button>
           </a>
           <p style={{fontFamily: "Spectral", fontSize: 16, marginTop: 20}}>
-            <b>Step 2:</b> Once the file "Rivernotch_Setup.exe" is downloaded double click it to start the setup. Your computer may not allow you to open the Rivernotch setup program however, to fix this, press the "More Information" button and then the "Run Anyway" button.
+            <b>Step 2:</b> Once the file "Rivernotch_Setup.zip" is downloaded open the zip file and run "Rivernotch.exe". Your computer may not allow you to open the Rivernotch however, to fix this, press the "More Information" button and then the "Run Anyway" button.
           </p>
           <p style={{fontFamily: "Spectral", fontSize: 16, marginTop: 20}}>
             <b>Step 3:</b> After you have allowed the Rivernotch setup begin simply follow the setup instructions to install and play the game. Enjoy!
@@ -84,8 +84,21 @@ const Download = () => {
         <h2 style={{marginTop: 60}}>For Linux</h2>
         <div style={{textAlign: "justify"}}>
           <p style={{fontFamily: "Spectral", fontSize: 16}}>
-            Yeah you probably a hacker anyways, so inspect element and download the zip from src/resources ;)
+            You will figure it out, I'm sure.
           </p>
+          <a href={rivernotch_linux} download="Rivernotch_Linux.zip">
+            <Button>
+              <p style={{
+                fontSize: 20,
+                fontFamily: 'IM Fell DW Pica SC',
+                color: "rgba(255,255,255,0.9)",
+                marginTop: 12,
+                marginLeft: 30
+              }}>
+               Download for Linux
+              </p>
+            </Button>
+          </a>
         </div>
       </div>
   )
